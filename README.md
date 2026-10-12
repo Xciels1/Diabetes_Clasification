@@ -4,26 +4,11 @@ Tugas Besar 1, Jaringan Syaraf Tiruan (IT6053), FTI UKDW.
 Klasifikasi dua kelas (diabetes = +1, tidak = −1) dengan Perceptron dan ADALINE (Delta Rule) yang diimplementasikan sendiri dengan NumPy.
 
 ## Identitas
-| Nama | NIM |
-|---|---|---|
-| (Hendrikus Lanang Ona) | (71241114) 
-| (Harrison Abraham Pribadi
-) | (71241151)
-| (ochelino Felix Kurniawan
-) | (71241156) 
+71241114 - Hendrikus Lanang Ona
+71241151 - Harrison Abraham Pribadi
+71241156 - Jochelino Felix Kurniawan
 
-Kelompok: XX. Ganti `XX` pada nama repository dan berkas dengan nomor kelompok.
 
-## Struktur berkas
-| Berkas | Isi |
-|---|---|
-| [TB1_KelompokXX.ipynb](TB1_KelompokXX.ipynb) | Notebook lengkap: EDA, split, implementasi, perhitungan manual, 8 pelatihan, evaluasi, analisis |
-| [TB1_KelompokXX.pdf](TB1_KelompokXX.pdf) | Laporan |
-| [Presentasi_TB1.pdf](Presentasi_TB1.pdf) | Slide presentasi |
-| [dataset.csv](dataset.csv) | Data yang dipakai (768 baris, 8 fitur + `Outcome`) |
-| [requirements.txt](requirements.txt) | Dependensi dan versi |
-| [results.json](results.json) | Angka hasil, ditulis otomatis oleh notebook |
-| [figures/](figures) | Gambar yang dihasilkan notebook |
 
 ## Data
 - **Sumber:** Pima Indians Diabetes Database (NIDDK), via UCI/Kaggle. Smith dkk. (1988). *(Isi URL dan tanggal akses sumber yang Anda unduh, dan verifikasi lisensinya.)*
@@ -62,7 +47,4 @@ Temuan utama: data tidak menunjukkan keterpisahan linear (Perceptron 1000 epoch 
 4. Smith, J. W. dkk. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus. *Proc. Annu. Symp. Comput. Appl. Med. Care*, 261–265.
 
 ## Bantuan AI
-Kode, perhitungan, laporan, dan slide disusun dengan bantuan asisten AI (Claude, Anthropic). Verifikasi: *assertion* perhitungan manual terhadap kelas model, perbandingan dengan `sklearn.Perceptron` dan solusi `np.linalg.lstsq`, serta eksekusi ulang notebook. Setiap anggota wajib memahami dan memverifikasi seluruh isi sebelum dikumpulkan.
-
-## Kontribusi anggota
-(Isi pembagian kerja tiap anggota.)
+Pencarian data dan testing 
