@@ -4,10 +4,13 @@ Tugas Besar 1, Jaringan Syaraf Tiruan (IT6053), FTI UKDW.
 Klasifikasi dua kelas (diabetes = +1, tidak = −1) dengan Perceptron dan ADALINE (Delta Rule) yang diimplementasikan sendiri dengan NumPy.
 
 ## Identitas
-| Nama | NIM | Kontribusi |
+| Nama | NIM |
 |---|---|---|
-| (isi) | (isi) | (isi) |
-| (isi) | (isi) | (isi) |
+| (Hendrikus Lanang Ona) | (71241114) 
+| (Harrison Abraham Pribadi
+) | (71241151)
+| (ochelino Felix Kurniawan
+) | (71241156) 
 
 Kelompok: XX. Ganti `XX` pada nama repository dan berkas dengan nomor kelompok.
 
