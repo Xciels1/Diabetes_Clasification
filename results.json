@@ -1,0 +1,623 @@
+{
+ "imputed_insulin": 374,
+ "imputed_skin": 257,
+ "manual": {
+  "perc_w": [
+   0.21137388001781351,
+   0.15323003735006713
+  ],
+  "perc_b": -0.2,
+  "ada_w": [
+   0.030386431854395442,
+   0.056970442334978166
+  ],
+  "ada_b": -0.18879895120093143
+ },
+ "table": [
+  {
+   "model": "Perceptron",
+   "eta": 0.001,
+   "epochs": 50,
+   "standardisasi": "Ya",
+   "acc_latih": 0.6889250814332247,
+   "acc_uji": 0.7012987012987013,
+   "precision": 0.5769230769230769,
+   "recall": 0.5555555555555556,
+   "f1": 0.5660377358490566,
+   "loss_akhir": "176 update (epoch 50)",
+   "err_latih_akhir": 0.31107491856677527,
+   "w": [
+    0.005217316362560866,
+    -0.00043811882690606764,
+    0.0011882422569096471,
+    -0.0006602407159235141,
+    0.0047060117759955035,
+    0.003504228373552735,
+    -0.0038611097392330764,
+    -0.0030898872135260006
+   ],
+   "b": -0.004,
+   "cm": [
+    [
+     78,
+     22
+    ],
+    [
+     24,
+     30
+    ]
+   ]
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "epochs": 50,
+   "standardisasi": "Ya",
+   "acc_latih": 0.6889250814332247,
+   "acc_uji": 0.7012987012987013,
+   "precision": 0.5769230769230769,
+   "recall": 0.5555555555555556,
+   "f1": 0.5660377358490566,
+   "loss_akhir": "176 update (epoch 50)",
+   "err_latih_akhir": 0.31107491856677527,
+   "w": [
+    0.05217316362560837,
+    -0.004381188269062173,
+    0.011882422569095732,
+    -0.006602407159232643,
+    0.04706011775995713,
+    0.03504228373552855,
+    -0.03861109739233069,
+    -0.03089887213526057
+   ],
+   "b": -0.039999999999999994,
+   "cm": [
+    [
+     78,
+     22
+    ],
+    [
+     24,
+     30
+    ]
+   ]
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.1,
+   "epochs": 50,
+   "standardisasi": "Ya",
+   "acc_latih": 0.6889250814332247,
+   "acc_uji": 0.7012987012987013,
+   "precision": 0.5769230769230769,
+   "recall": 0.5555555555555556,
+   "f1": 0.5660377358490566,
+   "loss_akhir": "176 update (epoch 50)",
+   "err_latih_akhir": 0.31107491856677527,
+   "w": [
+    0.5217316362560936,
+    -0.043811882690631646,
+    0.11882422569096265,
+    -0.06602407159234361,
+    0.47060117759957726,
+    0.3504228373552747,
+    -0.3861109739233159,
+    -0.30898872135260647
+   ],
+   "b": -0.4000000000000001,
+   "cm": [
+    [
+     78,
+     22
+    ],
+    [
+     24,
+     30
+    ]
+   ]
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "epochs": 50,
+   "standardisasi": "Tidak",
+   "acc_latih": 0.6612377850162866,
+   "acc_uji": 0.6298701298701299,
+   "precision": 0.36363636363636365,
+   "recall": 0.07407407407407407,
+   "f1": 0.12307692307692307,
+   "loss_akhir": "213 update (epoch 50)",
+   "err_latih_akhir": 0.3387622149837134,
+   "w": [
+    14.04000000000084,
+    -1.40000000000003,
+    -22.97999999999981,
+    2.280000000000015,
+    4.840000000000272,
+    5.391999999999954,
+    2.5799799999999955,
+    -2.6599999999999913
+   ],
+   "b": -15.739999999999753,
+   "cm": [
+    [
+     93,
+     7
+    ],
+    [
+     50,
+     4
+    ]
+   ]
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.001,
+   "epochs": 50,
+   "standardisasi": "Ya",
+   "acc_latih": 0.7915309446254072,
+   "acc_uji": 0.7337662337662337,
+   "precision": 0.6031746031746031,
+   "recall": 0.7037037037037037,
+   "f1": 0.6495726495726495,
+   "loss_akhir": 0.46251776011223833,
+   "err_latih_akhir": 0.20846905537459282,
+   "diverged_epoch": null,
+   "w": [
+    0.009341816524256504,
+    0.023396413438262056,
+    0.008390624489614387,
+    0.013829774015168854,
+    0.01916331872371119,
+    0.014918640252854134,
+    0.00741859361449679,
+    0.010700304672257134
+   ],
+   "b": -0.01478135693054099,
+   "cm": [
+    [
+     75,
+     25
+    ],
+    [
+     16,
+     38
+    ]
+   ]
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "epochs": 50,
+   "standardisasi": "Ya",
+   "acc_latih": 0.7931596091205212,
+   "acc_uji": 0.7532467532467533,
+   "precision": 0.6333333333333333,
+   "recall": 0.7037037037037037,
+   "f1": 0.6666666666666667,
+   "loss_akhir": 0.3276328831307331,
+   "err_latih_akhir": 0.2068403908794788,
+   "diverged_epoch": null,
+   "w": [
+    0.05780053765482612,
+    0.1574294164592439,
+    0.042285192833527586,
+    0.0791566342278077,
+    0.12131719246473112,
+    0.0914584644529796,
+    0.04518392179854499,
+    0.05982245382843676
+   ],
+   "b": -0.1196561425283684,
+   "cm": [
+    [
+     78,
+     22
+    ],
+    [
+     16,
+     38
+    ]
+   ]
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.1,
+   "epochs": 50,
+   "standardisasi": "Ya",
+   "acc_latih": 0.7996742671009772,
+   "acc_uji": 0.7272727272727273,
+   "precision": 0.6304347826086957,
+   "recall": 0.5370370370370371,
+   "f1": 0.5800000000000001,
+   "loss_akhir": 0.28997722696896494,
+   "err_latih_akhir": 0.20032573289902278,
+   "diverged_epoch": null,
+   "w": [
+    0.10613463269927581,
+    0.31659466535259384,
+    0.008861913266575167,
+    0.06812303688345252,
+    0.15724738905052107,
+    0.14722702102037222,
+    0.05413691516067659,
+    0.040865914110585565
+   ],
+   "b": -0.30137035474175666,
+   "cm": [
+    [
+     83,
+     17
+    ],
+    [
+     25,
+     29
+    ]
+   ]
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "epochs": 50,
+   "standardisasi": "Tidak",
+   "acc_latih": 0.3485342019543974,
+   "acc_uji": 0.35064935064935066,
+   "precision": 0.35064935064935066,
+   "recall": 1.0,
+   "f1": 0.5192307692307693,
+   "loss_akhir": 1.3057081995018568e+265,
+   "err_latih_akhir": 0.6514657980456027,
+   "diverged_epoch": null,
+   "w": [
+    4.084967779506026e+128,
+    1.3226161289027133e+130,
+    7.491179555792408e+129,
+    3.0797313202456446e+129,
+    1.702844301136983e+130,
+    3.4017081714670216e+129,
+    5.141084301204915e+127,
+    3.5233423916081234e+129
+   ],
+   "b": 1.0255214974933181e+128,
+   "cm": [
+    [
+     0,
+     100
+    ],
+    [
+     0,
+     54
+    ]
+   ]
+  }
+ ],
+ "hist": [
+  {
+   "model": "Perceptron",
+   "eta": 0.001,
+   "std": "Ya",
+   "epoch": 10,
+   "metrik": "update salah",
+   "nilai": 170,
+   "acc_latih": 0.7818
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.001,
+   "std": "Ya",
+   "epoch": 30,
+   "metrik": "update salah",
+   "nilai": 167,
+   "acc_latih": 0.7915
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.001,
+   "std": "Ya",
+   "epoch": 50,
+   "metrik": "update salah",
+   "nilai": 176,
+   "acc_latih": 0.6889
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "std": "Ya",
+   "epoch": 10,
+   "metrik": "update salah",
+   "nilai": 170,
+   "acc_latih": 0.7818
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "std": "Ya",
+   "epoch": 30,
+   "metrik": "update salah",
+   "nilai": 167,
+   "acc_latih": 0.7915
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "std": "Ya",
+   "epoch": 50,
+   "metrik": "update salah",
+   "nilai": 176,
+   "acc_latih": 0.6889
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.1,
+   "std": "Ya",
+   "epoch": 10,
+   "metrik": "update salah",
+   "nilai": 170,
+   "acc_latih": 0.7818
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.1,
+   "std": "Ya",
+   "epoch": 30,
+   "metrik": "update salah",
+   "nilai": 167,
+   "acc_latih": 0.7915
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.1,
+   "std": "Ya",
+   "epoch": 50,
+   "metrik": "update salah",
+   "nilai": 176,
+   "acc_latih": 0.6889
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "std": "Tidak",
+   "epoch": 10,
+   "metrik": "update salah",
+   "nilai": 213,
+   "acc_latih": 0.6612
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "std": "Tidak",
+   "epoch": 30,
+   "metrik": "update salah",
+   "nilai": 219,
+   "acc_latih": 0.6564
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "std": "Tidak",
+   "epoch": 50,
+   "metrik": "update salah",
+   "nilai": 213,
+   "acc_latih": 0.6612
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.001,
+   "std": "Ya",
+   "epoch": 10,
+   "metrik": "J",
+   "nilai": 0.492621,
+   "acc_latih": 0.7899
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.001,
+   "std": "Ya",
+   "epoch": 30,
+   "metrik": "J",
+   "nilai": 0.47725,
+   "acc_latih": 0.7915
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.001,
+   "std": "Ya",
+   "epoch": 50,
+   "metrik": "J",
+   "nilai": 0.463189,
+   "acc_latih": 0.7915
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "std": "Ya",
+   "epoch": 10,
+   "metrik": "J",
+   "nilai": 0.437468,
+   "acc_latih": 0.7932
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "std": "Ya",
+   "epoch": 30,
+   "metrik": "J",
+   "nilai": 0.361933,
+   "acc_latih": 0.7899
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "std": "Ya",
+   "epoch": 50,
+   "metrik": "J",
+   "nilai": 0.328719,
+   "acc_latih": 0.7932
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.1,
+   "std": "Ya",
+   "epoch": 10,
+   "metrik": "J",
+   "nilai": 0.302568,
+   "acc_latih": 0.7948
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.1,
+   "std": "Ya",
+   "epoch": 30,
+   "metrik": "J",
+   "nilai": 0.290558,
+   "acc_latih": 0.798
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.1,
+   "std": "Ya",
+   "epoch": 50,
+   "metrik": "J",
+   "nilai": 0.289986,
+   "acc_latih": 0.7997
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "std": "Tidak",
+   "epoch": 10,
+   "metrik": "J",
+   "nilai": 1.04327e+46,
+   "acc_latih": 0.3485
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "std": "Tidak",
+   "epoch": 30,
+   "metrik": "J",
+   "nilai": 7.85599e+152,
+   "acc_latih": 0.3485
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "std": "Tidak",
+   "epoch": 50,
+   "metrik": "J",
+   "nilai": 5.9157e+259,
+   "acc_latih": 0.3485
+  }
+ ],
+ "features": [
+  "Pregnancies",
+  "Glucose",
+  "BloodPressure",
+  "SkinThickness",
+  "Insulin",
+  "BMI",
+  "DiabetesPedigreeFunction",
+  "Age"
+ ],
+ "perc_eta_scaling": {
+  "same_pred": true,
+  "same_updates": true,
+  "w_over_eta": [
+   5.217316362560837,
+   -0.4381188269062173,
+   1.1882422569095732,
+   -0.6602407159232643,
+   4.706011775995713,
+   3.5042283735528548,
+   -3.8611097392330693,
+   -3.089887213526057
+  ],
+  "b_over_eta": -3.999999999999999
+ },
+ "longrun": {
+  "min_updates": 152,
+  "argmin": 119,
+  "mean_last50": 170.1,
+  "best_train_acc": 0.8289902280130294,
+  "zero_epochs": 0,
+  "J_ls": 0.2898866085863758,
+  "J_ada2000": 0.2898866085863758
+ },
+ "val": [
+  {
+   "model": "Perceptron",
+   "eta": 0.001,
+   "acc_validasi": 0.6911
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "acc_validasi": 0.6911
+  },
+  {
+   "model": "Perceptron",
+   "eta": 0.1,
+   "acc_validasi": 0.6911
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.001,
+   "acc_validasi": 0.8618
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.01,
+   "acc_validasi": 0.8699
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.1,
+   "acc_validasi": 0.8293
+  }
+ ],
+ "sel_eta": {
+  "Perceptron": 0.001,
+  "ADALINE": 0.01
+ },
+ "sens": [
+  {
+   "model": "Perceptron",
+   "eta": 0.01,
+   "acc_uji_8fitur": 0.7013,
+   "acc_uji_6fitur": 0.6948,
+   "acc_latih_6fitur": 0.671
+  },
+  {
+   "model": "ADALINE",
+   "eta": 0.1,
+   "acc_uji_8fitur": 0.7273,
+   "acc_uji_6fitur": 0.6948,
+   "acc_latih_6fitur": 0.7899
+  }
+ ],
+ "compare": {
+  "agree_te": 0.7792207792207793,
+  "agree_tr": 0.755700325732899,
+  "cos": 0.33893218653409407,
+  "sk_train": 0.6889250814332247,
+  "sk_test": 0.7012987012987013,
+  "sk_agree": 1.0
+ },
+ "stability": {
+  "lam_std": 2.464221158493647,
+  "lam_raw": 47080.769070597344,
+  "eta_max_std": 0.8116154644263259,
+  "eta_max_raw": 4.2480189671519837e-05
+ },
+ "meta": {
+  "seed": 42,
+  "test_size": 0.2,
+  "n": 768,
+  "n_train": 614,
+  "n_test": 154,
+  "pos_train": 214,
+  "pos_test": 54,
+  "python": "3.12.3",
+  "numpy": "2.4.4"
+ }
+}
