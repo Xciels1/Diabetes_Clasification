@@ -1,10 +1,8 @@
-# TB1-JST-KelompokXX
+# TB1-JST-Kelompok_Diabetes_Clasification
 
-**Tugas Besar 1 — Jaringan Syaraf Tiruan (IT6053), FTI UKDW**
-**Judul:** Analisis dan Implementasi Klasifikasi Data Menggunakan Perceptron dan ADALINE
-**Kasus:** Prediksi risiko diabetes pada pasien berdasarkan hasil pemeriksaan medis dasar (*Pima Indians Diabetes Dataset*), melanjutkan kasus yang sudah dianalisis pada Tugas 1.
 
-> ⚠️ **Sebelum dikumpulkan**, ganti `KelompokXX` pada nama repository dan nama berkas (nama file `TB1_KelompokXX.ipynb`/`.pdf` di repository ini) dengan nomor kelompok yang sesuai, dan sesuaikan tabel **Kontribusi Anggota** di bawah bila pembagian tugasnya berbeda dari draf yang sudah diisi.
+
+
 
 ## Identitas Anggota
 
@@ -18,8 +16,8 @@
 
 | Berkas | Isi |
 |---|---|
-| [`TB1_KelompokXX.ipynb`](./TB1_KelompokXX.ipynb) | Notebook lengkap: pemuatan data, implementasi Perceptron & ADALINE dari nol (NumPy), perhitungan manual, delapan konfigurasi eksperimen, evaluasi, dan visualisasi. Dapat dijalankan ulang dari awal hingga akhir. |
-| [`TB1_KelompokXX.pdf`](./TB1_KelompokXX.pdf) | Laporan tertulis (struktur: masalah & tujuan → dataset → artikel/kode pendukung → model neuron → penyiapan data & eksperimen → hasil → pembahasan → kesimpulan → daftar pustaka → lampiran). |
+| [`TB1_KelompokXX.ipynb`](./TB1_Kelompok_Diabetes_clasification.ipynb) | Notebook lengkap: pemuatan data, implementasi Perceptron & ADALINE dari nol (NumPy), perhitungan manual, delapan konfigurasi eksperimen, evaluasi, dan visualisasi. Dapat dijalankan ulang dari awal hingga akhir. |
+| [`TB1_KelompokXX.pdf`](./TB1_Kelompok_Diabetes_clasification.pdf) | Laporan tertulis (struktur: masalah & tujuan → dataset → artikel/kode pendukung → model neuron → penyiapan data & eksperimen → hasil → pembahasan → kesimpulan → daftar pustaka → lampiran). |
 | [`dataset.csv`](./dataset.csv) | Data yang benar-benar dipakai pada eksperimen — lihat **Sumber dan Deskripsi Data** di bawah. |
 | [`requirements.txt`](./requirements.txt) | Daftar dependensi Python beserta versi yang dipakai untuk menjalankan dan menguji notebook ini. |
 | [`Presentasi_TB1.pdf`](./Presentasi_TB1.pdf) | Ringkasan untuk presentasi pertemuan 7: kasus, metode, eksperimen, hasil utama, keterbatasan, kesimpulan. |
@@ -87,21 +85,5 @@ Materi kuliah Jaringan Syaraf Tiruan (IT6053) Pertemuan 1–5, Matahari Bhakti N
 Daftar pustaka lengkap dengan konteks pemakaian tiap sumber ada pada `TB1_KelompokXX.pdf`, Bagian 3 dan 9.
 
 ## Bantuan AI
+data testing, pengelolaan data, pencarian refrensi dan efisiensi kode
 
-Sebagian penyusunan notebook (struktur kode, kerangka eksperimen) dan draf laporan pada repository ini dibantu oleh asisten AI (Claude, Anthropic), berdasarkan dataset, materi kuliah Pertemuan 1–5, dan panduan Tugas Besar 1 yang dipakai di mata kuliah ini. Verifikasi yang telah dilakukan:
-
-- Seluruh kode diuji dengan menjalankan notebook secara penuh dari awal hingga akhir (*Run All*); hasil output (tabel, angka, grafik) yang tersimpan pada `.ipynb` adalah hasil eksekusi nyata, bukan ditulis manual.
-- Rumus dan aturan pembaruan bobot (Perceptron dan ADALINE) dicocokkan dengan ketentuan pada *Tugas Besar 1 — Panduan dan Rubrik* serta materi kuliah Pertemuan 4–5.
-- Angka pada laporan PDF (`TB1_KelompokXX.pdf`) diambil langsung dari keluaran notebook yang sudah dieksekusi, bukan diperkirakan.
-
-**Sebelum pengumpulan, setiap anggota kelompok wajib membaca ulang notebook dan laporan, menjalankan ulang notebook secara mandiri, dan memastikan dapat menjelaskan setiap bagian kode serta hasilnya** — sesuai ketentuan integritas akademik pada panduan tugas (Bagian E.4) dan komponen penilaian presentasi individu (Bagian F.8).
-
-## Kontribusi Anggota
-
-> ⚠️ Draf pembagian di bawah ini **perlu dicek ulang dan disesuaikan oleh kelompok** agar benar-benar mencerminkan siapa mengerjakan apa — jangan dikumpulkan tanpa diperiksa, karena komponen penilaian presentasi individu (Bagian F.8 panduan tugas) menilai apakah tiap anggota bisa menjelaskan kontribusinya sendiri.
-
-| Nama | Kontribusi |
-|---|---|
-| Hendrikus Lanang Ona | Penyiapan dan pembersihan data, implementasi fungsi `train_perceptron` dan perhitungan manual Perceptron |
-| Harison Abraham Pribadi | Implementasi fungsi `train_adaline`, rancangan delapan konfigurasi eksperimen, dan evaluasi (confusion matrix, kurva) |
-| Jochelino Felix Kurniawan | Penyusunan laporan PDF, analisis/pembahasan hasil, dan penyusunan bahan presentasi |
